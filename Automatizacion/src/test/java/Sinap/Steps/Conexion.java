@@ -19,7 +19,6 @@ public class Conexion {
 		driver.navigate().to("https://www.google.com/");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		return this.driver;
-
 	}
 	
 
