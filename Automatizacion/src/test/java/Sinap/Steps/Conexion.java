@@ -16,7 +16,7 @@ public class Conexion {
 		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.navigate().to("http://localhost:8000/Aplicaciones/sinap-web/");
+		driver.navigate().to("https://www.google.com/");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		return this.driver;
 
